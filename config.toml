@@ -1,4 +1,4 @@
-languageCode = "fr-fr"
+languageCode = "en-us"
 
 title = "sapiens.sapide"
 theme = "agency-theme"
@@ -15,7 +15,7 @@ theme = "agency-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "sapiens.sapide & Stanislas SABATIER"
-	description = "Agence de développements informatiques et d'hébergement de services, spécialisée en javascript, meteorJS, GO / golang, freeBSD, email."
+	description = "Our agency codes and hosts Internet services using free open sources technologies like javascript, meteorJS, GO / golang, freeBSD, email."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -36,7 +36,7 @@ theme = "agency-theme"
 		brand = "sapiens.sapide"
 		services = "Services"
 		technologies = "Technologies"
-		portfolio = "Réalisations"
+		portfolio = "Works"
 		contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -72,48 +72,48 @@ theme = "agency-theme"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Depuis 2008, nous développons et hébergeons des services et applications Internet.\n\nNous utilisons exclusivement des logiciels libres."
+		title = "Since 2008, we code and host Internet services and applications.\n\nWe rely on free and open source technologies only."
 		subtitle = ""
-		buttonText = "En savoir plus"
+		buttonText = "More"
 
 	# Services section
 	[params.services]
         enable = true
-		title = "Nos services"
-		subtitle = "Nous réalisons et **hébergeons** :"
+		title = "Our services"
+		subtitle = "We are coding and **hosting** :"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-globe"
-                title = "Des sites web"
-                description = "nous travaillons avec un réseau d'agences et de graphistes pour la conception graphique"
+                title = "Websites"
+                description = "we work with freelances and design agencies for visual identity"
 
             [[params.services.row.list]]
                 icon = "fa-mobile"
-                title = "Des applications mobiles"
-                description = "pour les professionels ou le grand public"
+                title = "Mobile applications"
+                description = "for professionals and consumers"
 
             [[params.services.row.list]]
                 icon = "fa-tachometer"
-                title = "Des applications de gestion"
-                description = "contrôle qualité, interfaces de supervision, services d'entreprise…"
+                title = "Business management softwares"
+                description = "quality control, dashboards, business services…"
 
             [[params.services.row.list]]
                 icon = "fa-database"
-                title = "Des bases de données"
-                description = "conception, mise en œuvre, interfaces de gestion et hébergement"
+                title = "Databases"
+                description = "design, implementation, interfaces and hosting"
 
     # Technologies section
 	[params.technologies]
         enable = true
-		title = "Nos technologies"
+		title = "Our technologies"
 		subtitle = ""
 
         [[params.technologies.row]]
 
             [[params.technologies.row.list]]
-                title = "Principaux langages"
+                title = "Main languages"
                 description = "Javascript, Go, C"
                 img = "gopher.png"
 
@@ -122,20 +122,20 @@ theme = "agency-theme"
                 description = "meteorJS, nodeJS, wordpress, phonegap, hugo"
 
             [[params.technologies.row.list]]
-                title = "bases de données"
+                title = "Databases"
                 description = "mongoDB, postgreSQL, sqlcipher"
 
             [[params.technologies.row.list]]
-                title = "frameworks CSS"
+                title = "CSS frameworks"
                 description = "bootstrap, semantic-ui, foundation"
 
             [[params.technologies.row.list]]
-                title = "hébergement & admin système"
-                description = "Système freeBSD exclusivement, l'un des plus fiable au monde !"
+                title = "hosting & system administration"
+                description = "freeBSD only, one of the most reliable OS in the worls !"
                 img = "logo-freebsd.png"
 
             [[params.technologies.row.list]]
-                title = "et aussi : "
+                title = "and : "
                 description = "postfix, dovecot, apache, nginx, roundcube, webDAV…"
 
 	# Portfolio section
@@ -145,7 +145,7 @@ theme = "agency-theme"
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Nos dernières réalisations"
+		title = "Last works"
 		subtitle = ""
 
 	# Client section
@@ -196,24 +196,24 @@ theme = "agency-theme"
         enable = true
 		title = "Contact"
 		subtitle  = ""
-		buttonText = "Envoyez votre message"
+		buttonText = "Send your message"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
 			text = "Nom *"
-			warning = "Merci de saisir votre nom."
+			warning = "Please, fill in your name"
 
 		[params.contact.form.email]
 			text = "E-mail *"
-			warning = "Merci de saisir une adresse email."
+			warning = "Please fill in your email"
 
 		[params.contact.form.phone]
 			text = "Téléphone *"
-			warning = "Merci de saisir un n° de tél."
+			warning = "Please fill in a phone number"
 
 		[params.contact.form.message]
 			text = "Votre Message *"
-			warning = "Merci de saisir un message."
+			warning = "Please enter a message"
 
 
 	# Footer section

@@ -1,7 +1,7 @@
 title = "Mailden"
-subtitle = "Service de emails sécurisés"
+subtitle = "Secure email service"
 preview = "mailden.png"
 clientLink = "https://www.mailden.net"
 tags = ["C","freeBSD","adminsys","Go","nodeJS","webDAV"]
 #max 20 words
-description = "Conception et commercialisation d'un service email qui chiffre les emails avant stockage sur serveur."
+description = "Design, coding and marketing of an email service that encrypts messages before storage."

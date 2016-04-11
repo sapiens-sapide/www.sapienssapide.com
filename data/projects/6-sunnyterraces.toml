@@ -1,7 +1,7 @@
 title = "SunnyTerraces"
-subtitle = "Application mobile qui indique l'ensoleillement des terrasses de café"
+subtitle = "Mobile application which indicates periods of sunshine"
 preview = "sunny-terraces.png"
 clientLink = "http://37.59.38.171:50001/"
 tags = ["nodeJS"]
 #max 20 words
-description = "Prototype d'une application qui calcule chaque jour l'ensoleillement des terraces en fonction des obstacles qui sont devant."
+description = "webapp prototype which daily computes exact periods of sunshine on café terraces, depending of in situ obstacles"

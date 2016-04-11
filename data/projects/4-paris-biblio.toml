@@ -1,7 +1,8 @@
 title = "Paris Bibliothèques"
 subtitle = "Site web marchand et d'information de l'association Paris-Bibliothèques"
+subtitle = "Merchant & news website for Paris-Bibliothèques association"
 preview = "paris-biblio.jpg"
 clientLink = "https://www.paris-bibliotheques.org"
 tags = ["wordpress","prestashop"]
 #max 20 words
-description = "Site web présentant les manifestations culturelles des bibliothèques, gestion en ligne des inscriptions aux événements, boutique."
+description = "Website presenting cultural events in libraries, online event registration management, online shop."
