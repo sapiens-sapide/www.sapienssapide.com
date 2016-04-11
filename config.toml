@@ -200,7 +200,7 @@ theme = "agency-theme"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
-			text = "Nom *"
+			text = "Name *"
 			warning = "Please, fill in your name"
 
 		[params.contact.form.email]
@@ -208,11 +208,11 @@ theme = "agency-theme"
 			warning = "Please fill in your email"
 
 		[params.contact.form.phone]
-			text = "Téléphone *"
+			text = "Phone # *"
 			warning = "Please fill in a phone number"
 
 		[params.contact.form.message]
-			text = "Votre Message *"
+			text = "Your Message *"
 			warning = "Please enter a message"
 
 
