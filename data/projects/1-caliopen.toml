@@ -1,0 +1,7 @@
+title = "Caliopen"
+subtitle = "Virtuous messaging system. Work in progress…"
+preview = "caliopen.png"
+clientLink = "https://www.caliopen.org"
+tags = ["Go","python","cassandra","elasticsearch"]
+#max 20 words
+description = "Caliopen is a messaging system designed to make privacy visible again."

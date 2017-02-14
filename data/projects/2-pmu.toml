@@ -1,0 +1,7 @@
+title = "PMU / Paris-Turf"
+subtitle = "Real time signal processing"
+preview = "pmu.png"
+clientLink = ""
+tags = ["100% GO"]
+#max 20 words
+description = "Signal receiver, data computing and race data broadcasting at 20hz for 20 GPS/inertial sensors embedded on racehorses."
